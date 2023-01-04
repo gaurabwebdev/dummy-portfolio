@@ -64,9 +64,10 @@ nav ul li a {
     
 }
 
-.nav-title, .nav-title span{
-    font-weight: 800;
-    font-size: 45px;
+.nav-title, .nav-title span {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
 }
 
 .nav-title span{
@@ -279,6 +280,7 @@ main {
     font-size: 30px;
     line-height: 41px;
     color: #474747;
+    margin-bottom: 10px;
 }
 
 .edu-history div h5, .work-history h5 {
@@ -286,6 +288,7 @@ main {
     font-size: 25px;
     line-height: 34px;
     color: #474747;
+    margin-bottom: 10px;
 }
 
 .edu-history div h6, .work-history h6 {
@@ -293,4 +296,89 @@ main {
     font-size: 20px;
     line-height: 27px;
     color: #757575;
+    margin-bottom: 20px;
+}
+
+.edu-history div p, .work-history div p {
+    color: #474747;
+    font-size: 16px;
+  }
+
+/* Footer CSS */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+    
+}
+
+
+.footer-left {
+    margin-right: 117px;
+    width: 50%;
+}
+
+.footer-left h3, .footer-right h3 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 28px;
+}
+
+.footer-left p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.socials svg {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right form input {
+    width: 461px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-right form textarea{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-btn{
+    font-weight: 700 !important;
+    width: 150px !important;
+    height: 65px !important;
+    color: #fff !important;
 }
