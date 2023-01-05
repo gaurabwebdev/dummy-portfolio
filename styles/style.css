@@ -117,10 +117,14 @@ nav ul li a {
 
 .download-btn{
     padding: 19px 17px;
+    border: 1px solid #FD6E0A;
 }
 
 .contact-btn{
     padding: 19px 23px;
+    background: none;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
 }
 
 
