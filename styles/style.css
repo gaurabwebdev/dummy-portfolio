@@ -340,9 +340,7 @@ footer{
     margin-bottom: 30px;
 }
 
-.socials svg {
-    width: 24px;
-    height: 24px;
+.socials img {
     margin-right: 24px;
     cursor: pointer;
 }
