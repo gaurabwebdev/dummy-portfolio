@@ -138,7 +138,6 @@ main {
 
 
 .abt-content {
-    margin: 157px 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +189,7 @@ main {
 }
 
 .skills {
-    margin: 130px 345px;
+    margin: 130px 230px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,6 +265,10 @@ main {
     margin-bottom: 50px;
     padding-bottom: 30px;
 }
+
+.edu-history-last, .work-history-last {
+    border-bottom: 0 !important;
+  }
 
 .edu-history:last-child , .work-history:last-child{
     border: none !important;
