@@ -165,6 +165,8 @@ main {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    gap: 50px;
+    text-align: center;
 }
 
 .details p {
@@ -175,15 +177,12 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    text-align: center;
-    margin-right: 50px;
 }
 
-.details p {
-    font-size: 20px;
+.details p span {
     font-weight: 700;
+    font-size: 20px;
     line-height: 30px;
-    text-align: center;
 }
 
 .details-lastChild{
@@ -219,6 +218,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 25px;
 }
 
 .skil-details div {
@@ -226,8 +226,7 @@ main {
     flex-direction: column;
     align-items: flex-start;
     padding: 30px;
-    box-shadow: 0px 0px 3px #bbb4b4;
-    margin-right: 25px;
+    box-shadow: 0px 0px 10px -5px #bbb4b4;
     border-radius: 5px;
     width: 267px;
     height: 377px;
@@ -258,11 +257,9 @@ main {
 
 .detail-history {
     display: flex;
+    gap: 25px;
 }
 
-.edu-history {
-    margin-right: 24px;
-}
 
 .edu-history div, .work-history div {
     border-bottom: 1px solid #D1D1D1;
