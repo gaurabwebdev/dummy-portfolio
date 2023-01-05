@@ -122,6 +122,13 @@ nav ul li a {
     padding: 19px 23px;
 }
 
+
+.img-gaurab img {
+    width: 415px;
+    margin-right: 75px;
+    vertical-align: bottom;
+}
+
 /* Main Content CSS */
 
 main {
